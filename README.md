@@ -67,8 +67,17 @@ Diabetic Retinopathy (DR) is a leading cause of vision loss in working-age adult
 - Batch size: 16
 - Real-time augmentations and class balancing
 
+## Accuracy-Loss while training and validation
+![Accuracy](Images/Training_Accuracy.png)
+![Loss](Images/Training_Loss.png)
+
 ## Evaluation
-- **Model1 Test Accuracy:** 81.6%
-- **Model2 Test Accuracy:** 78.9%
+- **Model 1** [Link](https://drive.google.com/file/d/1x-N6d0C4FbB62wBtOY9PVINpiWtEWhMc/view?usp=sharing)
+- Test Accuracy: 81.6%
+- **Model 2** [Link](https://drive.google.com/file/d/1AfKK8Ohn-X4wJc1SkIz5kTwuosQ7V-z_/view?usp=sharing)
+- Test Accuracy: 78.9%
 - Strongest performance on “No_DR”; common misclassifications between adjacent severity levels
-- Confusion matrix and more metrics provided in the report 
+- Confusion matrix and more metrics provided in the report
+
+## Confusion matrix for model 1
+![Matrix](Images/ConfusionMatrix.png)
